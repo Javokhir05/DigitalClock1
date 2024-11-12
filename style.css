@@ -1,0 +1,35 @@
+/* body {
+    background-color: black;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.time {
+    font-size: 100px;
+    color: #ff0000;
+    text-shadow: 0px 0px 40px #eb4b4b;
+} */
+
+/*second version*/
+
+body {
+    margin: 0;
+}
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(241, 26, 26);
+    /* backdrop-filter: blur(50px rgb(236, 110, 110)); */
+    text-shadow: 0px 0px 40px #eb4b4b;
+    width: 100%;
+}
